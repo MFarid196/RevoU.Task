@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 1em 2em;
+    }
+.nav {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+    }
+.nav-item {
+    min-width: 80px;
+    text-align: center;
+    padding: 0.2em 0.1;
+    }
+.nav-center {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    min-width: 80px;
+    text-align: center;
+    padding: 0.2em 0.1;
+    }
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+.banner#our {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    }
+.main-form {
+    display: flex;
+    }
+.element {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    pad: 10px;
+    }
+.circle {
+    border: 1px solid gray;
+    max-width: 1.2em;
+    border-radius: 50%;
+    text-align: center;
+    background: gray;
+    padding: 0.2em;
+    }
+.form {
+    background: rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    }
+.right {
+    display: flex;
+    flex-direction: column;
+    }
+.btn {
+    margin-top: 5px;
+    padding: 1em;
+    border-radius: 10px;
+    background: rgb(123, 123, 123);
+    cursor: pointer;
+    }
+.border-btn {
+    border-bottom: 5px solid gray;
+    width: 30%;
+    align-content: center;
+    align-items: center;
+    }
+.wrap {
+    width: 90%;
+    display: flex;
+    animation: slide 16s infinite;
+    }
+.container-slide {
+    width: 90%;
+    position: block;
+    overflow: hidden;
+    border: 8px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    }
+.h1our {
+    border: 0px solid gray;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    }
+    div {
+    display: block;
+    }
+a {
+    text-decoration: none;
+    color: black;
+    }
+img {
+    width: 100%;
+    }
+@keyframes slide {
+    0%{transform: translateX(0);}
+    25%{transform: translateX(0);}
+    30%{transform: translateX(-100%);}
+    50%{transform: translateX(-100%);}
+    55%{transform: translateX(-200%);}
+    75%{transform: translateX(-200%);}
+    80%{transform: translateX(-300%);}
+    100%{transform: translateX(-300%);}
+    }
+section#home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+input#name {
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    }
